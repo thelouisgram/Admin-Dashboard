@@ -7,7 +7,7 @@
 }
 
 :root{
-    --primary-bg:#f8f8f8;
+    --primary-bg:#f3f2f2;
     --secondary-bg:#ffffff;
     --border-color:#dbd8d8;
     --img-bg-color:#475569;
@@ -50,6 +50,7 @@ i:hover{
     min-height: 100vh;
     padding: 20px;
     background-color: var(--primary-bg);
+
 }
 
 .logo{
