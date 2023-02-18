@@ -256,7 +256,6 @@ input:checked + .slider:before {
   color: var(--primary-bg);
   border-radius: 4px;
   margin: 10px;
-  transition: 0.3s;
 }
 
 .header-corner button:hover {
@@ -290,7 +289,7 @@ input:checked + .slider:before {
   background-color: var(--secondary-bg);
   border-radius: 4px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto, 20px;
   cursor: pointer;
 }
 
@@ -368,7 +367,6 @@ input:checked + .slider:before {
   align-items: center;
   margin-bottom: 15px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
 .b-box:hover {
